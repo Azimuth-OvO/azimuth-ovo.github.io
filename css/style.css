@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    background: #020617;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #93c5fd;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+main {
+    padding: 3rem 2rem;
+}
+
+.project {
+    background: #020617;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
